@@ -1,0 +1,53 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Nyårsfest</title>
+	</head>
+	<body>
+		<header>
+			<h1>Välkommen till nyårsfest 2017!</h1>
+
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="default.html">Hem</a></li>
+				<li><a href="news.html">Om</a></li>
+				<li><a href="contact.html" class="active">Anmäl dig</a></li>
+				<li><a href="/attendee">Anmälda</a></li>
+			</ul> 
+
+		</nav>
+
+		<section id="contact">
+			<h2>Party! Party!</h2>
+			<div style="padding:10px;">
+				<form action="/attendee" method="post">
+					Förnamn:<br>
+					<input type="text" name="firstname"><br>
+					Efternamn:<br>
+					<input type="text" name="lastname"><br>
+					Email:<br>
+					<input type="text" name="email"><br><br>
+
+					<input type="radio" name="food" value="kött" checked> Kött<br>
+					<input type="radio" name="food" value="vegetarianskt"> Vegetarianskt<br>
+					<input type="radio" name="food" value="fisk"> Fisk<br>
+					<select name="Att dricka">
+						<option name="drinks" value="champagne & vin">Champagne & vin</option>
+						<option name="drinks" value="champagne & öl">Champagne & öl</option>
+						<option name="drinks" value="alkoholfritt">Alkoholfritt</option>
+					</select><br><br>
+
+					<input type="submit" class="button" value="Anmäl">
+				</form> 
+			</div>
+
+		</section>
+
+		<footer><center>&copy 2017</center></footer>
+
+	</body>
+	</html>

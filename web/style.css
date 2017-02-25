@@ -1,0 +1,104 @@
+header{
+	border:1px solid red ;
+	padding: 20px;
+	height:200px;
+	text-shadow: 4px 3px white;
+	background-image: url("images/champagne.jpg");
+	background-repeat: repeat; 
+	text-align: center;
+	color:red;
+	font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FF4000;
+}
+
+.active {
+    background-color: #FF4000;
+}
+
+footer{
+	border:1px solid gray ;
+	padding: 20px;
+	color:deeppink;
+	background-color: black;
+	text-align: center;
+}
+
+#contact{
+	background-color: pink;
+}
+
+h2{
+	font-size: 35px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    padding-bottom:200px;
+    border:10px; 
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color:pink;
+    color: white;
+   }
+
+   #map{
+
+   	background-image: url("images/trapphus01.jpg");
+
+   }
+
+   #text{
+   		font-size: 20px;
+   		color: red;
+   		text-shadow: 4px 3px black;
+       }
+
+ iframe{
+	
+  	position: relative;
+    left: 50%;
+    bottom:30px;
+   }
+
+.button {
+    background-color: deeppink; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
